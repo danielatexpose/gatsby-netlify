@@ -26,6 +26,16 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+      
+  - name: "pet"
+    label: "Pet"
+    folder: "src/pages/pet"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "pet"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Is a Cat", name: "cat", widget: "boolean"}
+      - {label: "Image", name: "image", widget: image}
 
   - name: "pages"
     label: "Pages"
