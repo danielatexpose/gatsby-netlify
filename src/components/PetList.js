@@ -73,8 +73,6 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
-                featuredpet
                 image {
                   childImageSharp {
                     fluid(maxWidth: 120, quality: 100) {
